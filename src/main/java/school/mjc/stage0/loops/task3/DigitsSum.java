@@ -1,11 +1,7 @@
 package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
-    public static void main(String[] args) {
-        printDigitsSum(1000000001);
-
-    }
-    public static void printDigitsSum(int t){
+    public void printDigitsSum(int t){
         int generalLoopNumber = 0;
         int divider = 1;
 
